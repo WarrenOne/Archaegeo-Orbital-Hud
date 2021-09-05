@@ -7,7 +7,7 @@ script = {}  -- wrappable container for all the code. Different than normal DU L
 VERSION_NUMBER = 1.411
 
 -- User variables, visable via Edit Lua Parameters. Must be global to work with databank system as set up due to using _G assignment
-    useTheseSettings = false --export:
+    useTheseSettings = true --export:
     userControlScheme = "virtual joystick" --export:
     soundFolder = "archHUD" --export:
     
